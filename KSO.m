@@ -1,3 +1,4 @@
+
 for sub = 1:9
         training = ['L:\BCI_IV_2a_exp\CWT_5_45Hz\sub_', num2str(sub), '\training'];
         path1 = imageDatastore(training, 'IncludeSubfolders', true, 'LabelSource', 'foldernames');
