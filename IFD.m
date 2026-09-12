@@ -1,3 +1,4 @@
+
 tempLayers = maxPooling2dLayer([4 4],"Name","maxpool","Padding","same");
 lgraph = addLayers(lgraph,tempLayers);
 
