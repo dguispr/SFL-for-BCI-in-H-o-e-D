@@ -1,5 +1,4 @@
 
-
 tempLayers = [
     convolution2dLayer([7 7],64,"Name","conv","Padding","same")
     batchNormalizationLayer("Name","batchnorm")
