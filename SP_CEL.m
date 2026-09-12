@@ -1,3 +1,4 @@
+
 classdef SP_CEL < nnet.layer.ClassificationLayer
     properties
         % No additional properties needed
